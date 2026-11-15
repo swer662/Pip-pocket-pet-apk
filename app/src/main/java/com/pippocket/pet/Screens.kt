@@ -1,6 +1,8 @@
 package com.pippocket.pet
 
+import androidx.compose.animation.core.withInfiniteAnimationFrameMillis
 import java.util.Locale
+
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
