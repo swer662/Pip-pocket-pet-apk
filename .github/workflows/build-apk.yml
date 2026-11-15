@@ -25,7 +25,10 @@ jobs:
           gradle-version: '8.7'
 
       - name: 4. Сборка Debug APK
-        run: gradle assembleDebug --stacktrace
+        run: |
+          ls -la
+          ls -la app || true
+          gradle :app:assembleDebug --stacktrace
 
       - name: 5. Публикация готового APK в Artifacts
         uses: actions/upload-artifact@v4
