@@ -1,5 +1,6 @@
 package com.pippocket.pet
 
+import androidx.compose.animation.core.withInfiniteAnimationFrameMillis
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.gestures.detectDragGestures
 import androidx.compose.foundation.gestures.detectTapGestures
